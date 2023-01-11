@@ -8,7 +8,7 @@ const auth = getAuth(firebaseApp);
 export const Home = () => {
   return <Container>
         <h4>
-            holam sesion iniciada
+            sesion iniciada
         </h4>
         <Button onClick={() => {
             signOut(auth)
